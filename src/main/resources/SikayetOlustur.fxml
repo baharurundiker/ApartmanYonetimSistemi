@@ -1,0 +1,17 @@
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="org.example.SikayetOlusturKomutu">
+    <!-- ListView to display the complaint details -->
+    <ListView fx:id="sikayetListView" layoutX="50" layoutY="200" prefWidth="600" prefHeight="300"/>
+
+    <!-- Complaint Form Section -->
+    <Label fx:id="konulabel" text="Şikayet Konusu"/>
+    <TextField fx:id="konuTextField" promptText="Şikayet konusu giriniz" />
+
+    <Label fx:id="aciklamalabel" text="Şikayet Açıklaması"/>
+    <TextArea fx:id="aciklamaTextArea" promptText="Şikayet açıklamasını buraya yazın" />
+
+    <Button fx:id="olusturButton" text="Şikayet Oluştur" />
+
+</VBox>

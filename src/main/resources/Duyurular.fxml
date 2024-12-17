@@ -1,0 +1,8 @@
+
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="org.example.DuyuruListesiGorKomutu" spacing="10" padding="20">
+    <ListView fx:id="duyuruListView" />
+</VBox>

@@ -1,0 +1,25 @@
+
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Alert?>
+<?import javafx.scene.control.Alert.AlertType?>
+<?import javafx.scene.text.Text?>
+<?import org.example.DaireGuncelleKomutu?>
+
+
+<?import java.awt.Insets?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="org.example.DaireGuncelleKomutu">
+    <children>
+        <!-- Title text -->
+        <Text text="Daire Durumu Güncelle" layoutX="10" layoutY="20" style="-fx-font-size: 20px;"/>
+
+        <!-- ListView to display daireler -->
+        <ListView fx:id="daireListView" layoutX="10" layoutY="50" prefWidth="300" prefHeight="200" />
+
+        <!-- Update Status Button -->
+        <Button fx:id="updateStatusButton" text="Durumu Güncelle" layoutX="10" layoutY="270" prefWidth="200" />
+    </children>
+
+</AnchorPane>

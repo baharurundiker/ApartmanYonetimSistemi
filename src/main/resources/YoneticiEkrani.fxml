@@ -1,0 +1,13 @@
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+
+<VBox spacing="10" alignment="CENTER" xmlns:fx="http://javafx.com/fxml" fx:controller="org.example.YoneticiEkrani" prefWidth="600" prefHeight="600">
+    <Label fx:id="hosgeldinLabel" text="Hoşgeldiniz" style="-fx-font-size: 24px;"/>
+    <Button fx:id="duyuruYapButton" text="Duyuru Yap" onAction="#duyuruYap"/>
+    <Button fx:id="talepDuzenleButton" text="Talep Düzenle" onAction="#talepDuzenle"/>
+    <Button fx:id="odemeOlusturButton" text="Ödeme Oluştur" onAction="#odemeOlustur"/>
+    <Button fx:id="kullaniciSilButton" text="Kullanıcı Sil" onAction="#kullaniciSil"/>
+    <Button fx:id="sikayetDuzenleButton" text="Şikayet Düzenle" onAction="#sikayetDuzenle"/>
+    <Button fx:id="daireGuncelleButton" text="Daire Güncelle" onAction="#daireGuncelle"/>
+</VBox>
