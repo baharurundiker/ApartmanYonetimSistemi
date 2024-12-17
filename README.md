@@ -36,4 +36,9 @@ Bu proje, apartman yönetimi için geliştirilmiş bir uygulamadır. Kullanıcı
 - Java 17 veya üzeri
 - MySQL veritabanı
 - IntelliJ IDEA veya başka bir Java IDE
+## Ekran Görüntüleri
+![Ekran Alıntısı](https://github.com/user-attachments/assets/0392af39-da12-4381-87e2-e108a47d01ef)
+![2](https://github.com/user-attachments/assets/44a653b8-535e-475c-b9b7-fd1223a40751)
+![3](https://github.com/user-attachments/assets/484d3253-9e88-4fc4-8aed-8e85a9e64c94)
+![4](https://github.com/user-attachments/assets/7729c9de-6abd-4bac-93f1-94ccfdfef87b)
 
