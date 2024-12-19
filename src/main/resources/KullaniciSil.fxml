@@ -5,9 +5,10 @@
 <?import javafx.scene.layout.VBox?>
 
 <VBox xmlns:fx="http://javafx.com/fxml" fx:controller="org.example.KullaniciSilKomutu" spacing="10" padding="20">
-    <!-- ListView to display users -->
+
     <ListView fx:id="kullaniciListView" prefHeight="300" prefWidth="400"/>
 
-    <!-- Button to delete selected user -->
-    <Button text="Seçili Kullanıcıyı Sil" onAction="#silButtonClicked" />
+
+    <Button text="Seçili Kullanıcıyı Sil" onAction="#kullaniciSil" />
+
 </VBox>
