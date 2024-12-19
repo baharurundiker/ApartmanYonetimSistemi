@@ -2,7 +2,7 @@
 <?import javafx.scene.layout.*?>
 
 <VBox xmlns:fx="http://javafx.com/fxml" fx:controller="org.example.TalepOlusturKomutu">
-    <!-- ListView to display the complaint details -->
+
     <ListView fx:id="talepListView" layoutX="50" layoutY="200" prefWidth="600" prefHeight="300"/>
 
 
